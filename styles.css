@@ -1,0 +1,176 @@
+#head {
+  font-family: 'League Script', cursive;
+  padding-top: 20px;
+  font-size: 40px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: #535963;
+}
+
+.fa {
+ padding: 20px;
+ font-size: 30px;
+ width: 40px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.75;
+}
+
+.fa-facebook {
+  background: #F8F8F8;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: #F8F8F8;
+  color: #55ACEE;
+}
+
+
+.fa-instagram {
+  background: #F8F8F8;
+  color: #125688;
+}
+
+.fa-pinterest {
+  background: #F8F8F8;
+  color: #cb2027
+}
+
+
+ul {
+  padding-right: 20px;
+}
+
+#nav-element {
+  font-family: 'Poiret One';
+  font-size: 16px;
+}
+
+li a {
+  color: #54575e;
+}
+
+.divider-vertical {
+height: 50px;
+margin: 0 9px;
+border-left: 1px solid #e6e6e6;
+border-right: 1px solid #FFF;
+}
+
+.well {
+  margin-top: 8px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.feed {
+  position: relative;
+}
+
+label {
+  font-family: 'Poiret One';
+  position: absolute;
+  font-size: 22px;
+  left: 41%;
+}
+
+iframe {
+  background-color: #F8F8F8;
+  padding: 35px 10px 10px 10px;
+}
